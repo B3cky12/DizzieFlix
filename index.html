@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dizzieflix byBecky</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 05
+  </title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="center">
+      <h1 class="page-title">
+        Dizzieflix
+      </h1>
+      <h4 class="page-subtitle">"A distância é curta quando
+        se tem um bom motivo"</h4>
+    </div>
+    <br>
+
+    <div>
+      <p>O primeiro, original e mais que perfeito livro escrito por <stong>Jane Austen</strong>, em 1813.</p>
+      <h6>P.S.: LuvU Daycy</h6>
+      <ul id="ThankyUAusten"></ul>
+      <br>
+      <p>Para todos os amantes de Orgulho e Preconceito, e de suas muitas versões e adaptações, aqui se apresentam algumas delas.</p>
+      <ul id="lista">
+      </ul>
+    </div>
+    <br>
+
+    <div class="form-wrapper"><br>
+      <ul>
+        <div id="um">
+          <p style="text-align:center">Você conhece outra adaptação? Conta pra gente!!</p>
+          <input type="text" placeholder="Insira o nome da adaptação" id="nome"></input>
+          <input type="text" placeholder="Insira o endereço de imagem" id="imagem"></input>
+          <input type="text" placeholder="Insira um site de informação" id="site"></input>
+          <button type="button" onclick="analisar()">Adicionar</button>
+        </div>
+        <div id="dois">
+          <p>Algum item dessa lista não tem nada a ver com a história de Lizzie e Darcy? Retire-o por favor.</p>
+          <input type="text" placeholder="Defina a adaptação" id="quem"></input><button onclick="remover()">Retirar</button>
+        </div>
+        <div id="tres">
+          <p>O que você achou dessa seleção de adaptações? Você acha que Austen ficaria orgulhosa?</p>
+          <div id="love">
+            <button type="button" onclick="atualiza('love')">💗</button>
+          </div><br>
+          <div id="like">
+            <button type="button" onclick="atualiza('like')">😘</button>
+          </div><br>
+          <div id="obsessed">
+            <button type="button" onclick="atualiza('obsessed')">😍</button>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt=""><br>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
